@@ -31,7 +31,8 @@
     text-align: center;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
-
+    -webkit-box-sizing: initial;
+    box-sizing: initial
 
 
 }
@@ -152,6 +153,8 @@
     border-width: 1px;
     border-color: #dddddd;
     font-size: 15pt;
+    -webkit-box-sizing: initial;
+    box-sizing: initial;
 }
 
 #prefooter {
@@ -179,6 +182,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 960px;
     background-image: url("../images/subtle_white_mini_waves.png");
+
 }
 
 h2 {
