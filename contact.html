@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Joshua Pierce Contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -21,23 +23,33 @@
         <a href="contact.html">Contact</a>
     </div>
 </div>
+<!--I went for it with what we had just learned in Bootstrap here.-->
 <div id="contactbody">
     <h2> Contact </h2>
     <hr>
-    <p> Coming soon</p>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="inputName" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+                <input type="name" class="form-control" id="inputName" placeholder="Your Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <textarea class="form-control" rows="6">Message</textarea>
+        <br>
+        <button type="button" class="btn">Submit</button>
 </div>
 <div id="connectwithme">
     <h3>Connect with Me</h3>
     <hr>
-    <a href="https://github.com/jojap">
-        <img src="./assets/images/GitHub.png" alt="GitHub" height="60px" width="60px"
-    </a>
-    <a href="https://www.linkedin.com/in/jojap/">
-        <img src="./assets/images/linkedin-128.png" alt="LinkedIn" height="60px" width="60">
-    </a>
-    <a href="https://stackoverflow.com/users/8196243/joshua-pierce?tab=profile">
-        <img src="./assets/images/5333_-_Stackoverflow-128.png" alt="StackOverflow" height="60px" width="60px">
-    </a>
+    <a href="https://github.com/jojap"><img src="./assets/images/GitHub.png" alt="GitHub" height="60px" width="60px"</a>
+    <a href="https://www.linkedin.com/in/jojap/"><img src="./assets/images/linkedin-128.png" alt="LinkedIn" height="60px" width="60"></a>
+    <a href="https://stackoverflow.com/users/8196243/joshua-pierce?tab=profile"><img src="./assets/images/5333_-_Stackoverflow-128.png" alt="StackOverflow" height="60px" width="60px"></a>
 </div>
 <div id="footer">
 
